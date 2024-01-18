@@ -1,0 +1,76 @@
+/* General styling for readability and visual appeal */
+body {
+    font-family: sans-serif;
+    background-color: #f5f5f5; /* Light gray background for contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  /* Styling for the chat section */
+  .chat_section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 500px;
+  }
+  
+  /* Styling for the brand header */
+  .brand {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .brand img {
+    margin-right: 10px;
+  }
+  
+  .brand h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Styling for the message area */
+  .message_area {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 80%;
+}
+  .message.incoming {
+    background-color: #e0e0e0;
+    align-self: flex-start;
+}
+
+.message.outgoing {
+    background-color: #007bff;
+    color: #fff;
+    align-self: flex-end;
+}
+
+.message h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+  
+  /* Styling for the text input area */
+  #textarea {
+    width: 95.7%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none; /* Prevent text area resizing */
+    margin-top: 7px;
+  }
